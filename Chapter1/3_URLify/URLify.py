@@ -4,7 +4,7 @@ import unittest
 
 def urlify(string, length):
     '''function replaces single spaces with %20 and removes trailing spaces'''
-    return "%20".join(str1.split())
+    return "%20".join(string.split())
 
 
 class Test(unittest.TestCase):
